@@ -18,7 +18,7 @@ contract NektarToken is ERC20, ERC20Burnable, Ownable {
   unit256 constant _maxSupply=900000000*10**18;
 
   constructor() ERC20("NektarToken", "NEKTAR") {
-    _mint(msg.sender, 100000000*10**18)
+    _mint(msg.sender, 100000000*10**18);
   }
 
   function mint(address to, uint256 amount) external {
