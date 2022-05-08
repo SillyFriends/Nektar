@@ -51,6 +51,6 @@ contract NektarToken is ERC20, ERC20Burnable, Ownable {
   }
 
   function maxSupply() pure returns (unit256) {
-    return _maxSupply
+    return _maxSupply;
   }
 }
